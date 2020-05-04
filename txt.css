@@ -1,0 +1,149 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+ *{
+  box-sizing: border-box;
+}
+
+.fdiv{
+	
+	height: 200px;
+	border: 1px solid ;
+	margin: 1px;
+	width: 247px;
+	background-color: pink;
+
+}
+
+.tdiv{
+	
+	height: 200px;
+	border: 1px solid ;
+	margin: 1px 0px 1px 0px;
+   width: 33.5%;
+   float: right;
+   background-color: pink;
+}
+
+.t1pa{
+	text-align: center;
+	margin: 40px 5px 5px 5px;
+	width: 95%;
+}
+
+.f1pa {
+	border: 1px solid black;
+	float: right;
+	width: 130px;
+	text-align: center;
+	text-align: center;
+	margin-top: 0px ;
+	background:  green;
+}
+
+.f2pa {
+	border: 1px solid;
+	float: right;
+	width: 130px;
+	text-align: center;
+	text-align: center;
+	margin-top: 0px ;
+	background:red;
+}
+
+.f3pa {
+	border: 1px solid;
+	float: right;
+	width: 130px;
+	text-align: center;
+	text-align: center;
+	margin-top: 0px ;
+	background: yellow;
+}
+
+ @media(min-width: 992px){ 
+ 
+  	.fdiv {
+  		float: left;
+  		width: 33%;
+  	}
+  	  	.f1div {
+  		float: right;
+  		width: 66%;
+  	}
+
+
+  	.sdiv {
+  		float: right;
+  		width: 33%;
+
+  	}
+
+  }
+
+@media( min-width: 768px) and (max-width: 991px) { 
+	
+	.fdiv { float: left;
+         width: 48%;
+         }
+
+	.sdiv {
+        float: right;
+       }
+
+   .tdiv {
+	width: 96.5%;
+    float: left;
+    }
+}
+
+
+@media (max-width: 767px)
+{
+	.fdiv {
+
+	float: left;
+    width: 95%;
+   
+} 
+
+.f1pa{
+	border: 1px solid;
+	float: right;
+	width: 130px;
+	text-align: center;
+	margin-top: 0px ;
+	background: green;
+	
+}
+
+.f2pa{
+	border: 1px solid;
+	float: right;
+	text-align: center;
+	margin-top: 0px ;
+	background: red;
+
+}
+
+.f3pa{
+	border: 1px solid;
+	float: right;
+	width: 130px;
+	text-align: center;
+	text-align: center;
+	margin-top: 0px ;
+	background: yellow;
+
+}
+
+
+.tdiv {
+      
+	float: left;
+    width: 95%;
+   }
+
+}
